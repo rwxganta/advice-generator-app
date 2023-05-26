@@ -35,6 +35,11 @@ body {
     align-items: center;
 }
 
+img,
+svg {
+    display: block;
+    max-width: 100%;
+}
 
 /* text styling */
 
@@ -67,15 +72,9 @@ body {
     position: relative;
 }
 
-hr {
+.rule {
     margin-block: 1.4rem;
-    max-width: 100%;
-    border: 0;
-    opacity: .8;
-}
-
-hr::before {
-    content: url(./images/pattern-divider-desktop.svg);
+    width: 100%;
 }
 
 .dice {
