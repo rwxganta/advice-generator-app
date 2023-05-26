@@ -55,6 +55,12 @@ svg {
     text-align: center;
 }
 
+@media (max-width: 330px) {
+    .advice__phrase {
+        font-size: 1.50rem;
+    }
+}
+
 
 /* Layout */
 
