@@ -75,7 +75,7 @@ hr {
 }
 
 hr::before {
-    content: url(/images/pattern-divider-desktop.svg);
+    content: url(./images/pattern-divider-desktop.svg);
 }
 
 .dice {
