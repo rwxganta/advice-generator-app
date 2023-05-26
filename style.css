@@ -55,6 +55,14 @@ svg {
     text-align: center;
 }
 
+.advice__phrase::before {
+    content: open-quote;
+}
+
+.advice__phrase::after {
+    content: close-quote;
+}
+
 @media (max-width: 330px) {
     .advice__phrase {
         font-size: 1.50rem;
