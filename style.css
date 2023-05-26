@@ -92,7 +92,7 @@ hr::before {
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translate(-44%, 50%);
+    transform: translate(-50%, 50%);
     transition: box-shadow 200ms;
 }
 
